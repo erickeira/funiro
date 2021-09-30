@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
+import Topo from './componentes/topo'
+import Rodape from './componentes/rodape'
 
 ReactDOM.render(
-  <div>Olá</div>,
+  <div>
+    <topo></topo>
+    </div>,
+
   document.getElementById('root')
 );
