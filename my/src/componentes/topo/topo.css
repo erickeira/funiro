@@ -1,0 +1,22 @@
+.top {
+    margin: 20px 10px 80px 10px ;
+}
+
+.menu > a{
+    margin-left: 5%;
+    font-family: Gilroy_light;
+}
+.menu > span{
+    margin-left: 5%;
+    font-family: Gilroy;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../font/gilroy.otf");
+ }
+
+ @font-face {
+    font-family: "Gilroy_light";
+    src: url("../../font/gilroy_light.otf");
+ }
