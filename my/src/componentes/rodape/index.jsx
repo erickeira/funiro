@@ -1,10 +1,10 @@
 import React from 'react';
-import './rodape.css'
+import './style.css'
 
 function rodape(){
     return (
         <div>
-            Olá
+            
         </div>
     );
 };

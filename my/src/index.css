@@ -1,5 +1,11 @@
 body {
   background-color: white;
+  margin: 0px;
+  font-family: Gilroy_light;
 }
 
 
+@font-face {
+  font-family: "Gilroy_light";
+  src: url("font/gilroy_light.otf");
+}

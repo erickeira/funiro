@@ -1,5 +1,11 @@
 import React from 'react';
-import './topo.css'
+import './style.css'
+import coracao from "../../images/coracao.png";
+import carrinho from "../../images/carrinho.png"
+import usuario from "../../images/usuario.png"
+import seta from "../../images/seta_menu.png"
+
+
 
 function topo(){
     return (
@@ -8,10 +14,21 @@ function topo(){
                 
                 <nav className="menu">
                     <span className="home"><a>Funiro.</a></span>  
-                    <a>Products <img src="../../../images/seta_menu.png"></img></a>
-                    <a>Rooms</a>
+                    <a>Products <img src={seta}></img></a>
+                    <a>Rooms <img src={seta}></img></a>
                     <a>Inspirations</a>
+                    
+  
+                    <input type="text" className="cxpesquisa" placeholder="Buscar..."/>
+
+                    <div className="usuarea">
+                    <a><img src={coracao} alt=""/></a>
+                    <a><img src={carrinho} alt=""/></a>
+                    <a><img src={usuario} alt=""/></a>
+                    </div>
                 </nav>
+
+                
             </div>
         </div>
     );

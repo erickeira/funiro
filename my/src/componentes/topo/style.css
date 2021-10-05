@@ -1,0 +1,58 @@
+.top {
+    background-color: #F9F1E7;
+}
+
+.navbar{
+    padding: 20px;
+    background-color: #F9F1E7;
+   
+}
+
+
+.menu > a{
+    margin: 2% 2.5% 2% 2.5%;
+    font-family: Gilroy_light;
+    
+}
+.menu > span{
+    margin: 2% 2% 2% 2%;
+    font-family: Gilroy;
+}
+
+.menu img{
+    width: 10px;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../font/gilroy.otf");
+ }
+
+ @font-face {
+    font-family: "Gilroy_light";
+    src: url("../../font/gilroy_light.otf");
+ }
+
+ .cxpesquisa {
+    background-color:white;
+    padding-left: 15px;
+    width: 473px;
+    height: 45px;
+    border: none;
+    font-family: Gilroy_light;
+ }
+
+ .cxpesquisa:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.usuarea{
+    display: inline-block;
+    float:right;
+ }
+.usuarea img {
+width: 24px;
+margin-left: 20px;
+}
