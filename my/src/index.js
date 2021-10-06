@@ -1,14 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Topo from './componentes/topo'
+import Produtos from './componentes/produtos'
 import Rodape from './componentes/rodape'
-import Slider from './componentes/slider'
+import ImageSlider from './componentes/slider'
 import './index.css'
+import SliderData from './componentes/slider/sliderdata'
 
 ReactDOM.render(
   <div>
     <Topo></Topo>
-    <Slider></Slider>
+    <ImageSlider slides={SliderData}></ImageSlider>
+    <Produtos></Produtos>
     <Rodape></Rodape>
   </div>,
 
