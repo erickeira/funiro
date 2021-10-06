@@ -14,17 +14,17 @@ function topo(){
                 
                 <nav className="menu">
                     <span className="home"><a>Funiro.</a></span>  
-                    <a>Products <img src={seta}></img></a>
-                    <a>Rooms <img src={seta}></img></a>
-                    <a>Inspirations</a>
+                    <a>Produtos <img src={seta}></img></a>
+                    <a>Salas <img src={seta}></img></a>
+                    <a>Inspirações</a>
                     
   
                     <input type="text" className="cxpesquisa" placeholder="Buscar..."/>
 
                     <div className="usuarea">
-                    <a><img src={coracao} alt=""/></a>
-                    <a><img src={carrinho} alt=""/></a>
-                    <a><img src={usuario} alt=""/></a>
+                    <a><img src={coracao} alt="Favoritos"/></a>
+                    <a><img src={carrinho} alt="Carrinho"/></a>
+                    <a><img src={usuario} alt="Usuario"/></a>
                     </div>
                 </nav>
 

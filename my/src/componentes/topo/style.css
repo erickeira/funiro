@@ -49,8 +49,10 @@
 
 
 .usuarea{
+    padding-top: 10px;
     display: inline-block;
     float:right;
+    padding-right: 5%;
  }
 .usuarea img {
 width: 24px;

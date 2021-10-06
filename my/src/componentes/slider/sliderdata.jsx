@@ -1,11 +1,17 @@
+
 export const SliderData = [
     {
-        image:"../../images/slider/slider-1.jpg"
+        image:
+        'https://www.decorfacil.com/wp-content/uploads/2017/09/20170906sala-planejada-1.jpg'
     },
     {
-        image:"../../images/slider/slider-2.jpg"
+        image:
+        'https://www.decorfacil.com/wp-content/uploads/2017/09/20170906sala-planejada-2.jpg'
     },
     {
-        image:"../../images/slider/slider-3.jpg"
+        image:
+        'https://www.decorfacil.com/wp-content/uploads/2017/09/20170906sala-planejada-4.jpg'
     },
 ]
+
+export default SliderData;
