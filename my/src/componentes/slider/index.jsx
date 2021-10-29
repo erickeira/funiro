@@ -21,6 +21,7 @@ if (!Array.isArray(slides) || slides.length <= 0){
 
     return (
        
+        
         <section className="Slider">
         <span className="Shop-now"> 
             <b>Alta Qualidade </b><br/>
@@ -35,24 +36,23 @@ if (!Array.isArray(slides) || slides.length <= 0){
         <FaChevronCircleLeft className="circle" onClick={prevSlide} />
         <FaChevronCircleRight className="circle" onClick={nextSlide} />   
         </div>    
+        <div className="contorno_slide">
         {SliderData.map((slide, index) => {
             return (
-                <div className={index === current ? 'slide active' : 'slide'} key={index}>
+  
+                <div className={index === current ? 'slide active' : 'slide' } key={index}>
                     {index === current && 
                     (<img src={slide.image} alt="moveis planejados " className="image"/>)}
 
-                    <span className="infobox"> 
-                <b>Alta Qualidade </b><br/>
-                <b>só para você</b><br/>
-                <p> Nossos produtos são feitos selecionados e da melhor qualidade 
-                    de materias para o seu sonho de casa.</p>
-
-        </span>
+                   
                 </div>
 
             )
         })}
+        </div>
         </section>
+        
+        
         
     );
 };

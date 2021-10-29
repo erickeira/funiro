@@ -1,7 +1,15 @@
 .selos{
-    background-color: green;
-width: auto;
-margin-left: 3%;
-margin-right: 3%;
+width: 1000px;   
+height: 83px; 
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
+.selo{
+    width: 250px;
+    text-align: center;
+    font-size:  1.5em;
+    padding: 0 auto;
 }
